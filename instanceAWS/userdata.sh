@@ -42,5 +42,5 @@ git clone https://ChienDuyNguyen1702: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@gi
 # npm start &
 
 cd /home/ubuntu/KTPM_BMD_VDH
-docker compose build
-docker compose up
+docker compose build &
+docker compose up &

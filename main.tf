@@ -41,15 +41,15 @@ resource "aws_instance" "app_server" {
   }
 
 }
-resource "aws_ebs_volume" "app_server" {
-  availability_zone = "ap-southeast-1a"
-  size              = 8
-  tags = {
-    Name = "KTPM_BMD_VDH-EBS-volume"
-  }
-}
-resource "aws_volume_attachment" "ebs_att" {
-  device_name = "/dev/sdh"
-  volume_id   = aws_ebs_volume.app_server.id
-  instance_id = aws_instance.app_server.id
-}
+# resource "aws_ebs_volume" "app_server" {
+#   availability_zone = "ap-southeast-1a"
+#   size              = 8
+#   tags = {
+#     Name = "KTPM_BMD_VDH-EBS-volume"
+#   }
+# }
+# resource "aws_volume_attachment" "ebs_att" {
+#   device_name = "/dev/sdh"
+#   volume_id   = aws_ebs_volume.app_server.id
+#   instance_id = aws_instance.app_server.id
+# }

@@ -19,7 +19,7 @@ sudo apt install docker-ce -y
 # npm install -g nodemon
 
 # Clone reposiroty
-git clone https://github.com/ChienDuyNguyen1702/KTPM_BMD_VDH.git /home/ubuntu/KTPM_BMD_VDH
+git clone https://ChienDuyNguyen1702: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@github.com/ChienDuyNguyen1702/KTPM_BMD_VDH.git /home/ubuntu/KTPM_BMD_VDH
 
 # Install nginx
 # apt install nginx -y
@@ -41,6 +41,6 @@ git clone https://github.com/ChienDuyNguyen1702/KTPM_BMD_VDH.git /home/ubuntu/KT
 # npm install
 # npm start &
 
-cd KTPM_BMD_VDH
+cd /home/ubuntu/KTPM_BMD_VDH
 docker compose build
 docker compose up

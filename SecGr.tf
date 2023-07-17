@@ -1,5 +1,5 @@
-resource "aws_security_group" "demo-sg" {
-  name = "SimpleWeb"
+resource "aws_security_group" "KTPM_BMD_VDH-sg" {
+  name = "KTPM_BMD_VDH_Web_SG"
   description = "Allow HTTP and SSH traffic via Terraform"
 
   ingress {

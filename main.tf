@@ -32,7 +32,7 @@ resource "aws_instance" "app_server" {
   key_name                    = lookup(var.project_information, "keyname")
   user_data                   = "${file("./instanceAWS/userdata.sh")}"
   user_data_replace_on_change = true
-  vpc_security_group_ids = [aws_security_group.demo-sg.id]
+  vpc_security_group_ids = [aws_security_group.KTPM_BMD_VDH-sg.id]
   tags = {
     Name        = "WebServer"
     Environment = "DEV"

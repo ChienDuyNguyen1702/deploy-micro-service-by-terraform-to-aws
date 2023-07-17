@@ -6,5 +6,7 @@ RUN npm install
 
 COPY . /src
 
-EXPOSE 3000
+ENV PORT=3000
+
+EXPOSE $PORT
 CMD ["npm" ,"run", "dev"]

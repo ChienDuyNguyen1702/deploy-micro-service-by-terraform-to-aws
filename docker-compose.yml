@@ -19,9 +19,6 @@ services:
     networks:
       internal_network:
         ipv4_address: 172.10.0.3
-    environment:
-      - PORT=4000
-      - MONGODB_URL=Đợi dũng
 
   nginx:
     container_name: nginx

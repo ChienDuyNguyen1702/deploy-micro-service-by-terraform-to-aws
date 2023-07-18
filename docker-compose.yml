@@ -29,9 +29,6 @@ services:
       - ./nginx.conf:/etc/nginx/nginx.conf
     depends_on:
       - client
-    environment:
-      - CLIENT_HOST=172.10.0.2
-      - CLIENT_PORT=3000
     networks:
       internal_network:
         ipv4_address: 172.10.0.4

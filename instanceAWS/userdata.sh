@@ -19,10 +19,10 @@ sudo apt install docker-ce -y
 # npm install -g nodemon
 
 # Clone reposiroty
-git clone https://ChienDuyNguyen1702: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@github.com/ChienDuyNguyen1702/KTPM_BMD_VDH.git /home/ubuntu/KTPM_BMD_VDH
+git clone https://ChienDuyNguyen1702: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@github.com/ChienDuyNguyen1702/deploy-micro-service-by-terraform-to-aws.git /home/ubuntu/deploy-micro-service-by-terraform-to-aws
 
 # Install nginx
-# apt install nginx -y
+# apt install nginx -
 # systemctl enable nginx
 # systemctl start nginx
 

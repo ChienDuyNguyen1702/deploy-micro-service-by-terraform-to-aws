@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import React from "react";
 import { useState } from "react";
-require('dotenv').config();
+require("dotenv").config();
 const LoginForm = () => {
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
@@ -13,7 +13,7 @@ const LoginForm = () => {
     event.preventDefault();
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
-    const response = await fetch(process.env.SERVER_URL+"/auth/login", {
+    const response = await fetch("http://localhost:4000/auth/login", {
       method: "POST",
       body: JSON.stringify({ phone, password }),
       headers: myHeaders,

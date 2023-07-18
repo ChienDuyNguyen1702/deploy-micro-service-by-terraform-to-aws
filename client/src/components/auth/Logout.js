@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-require('dotenv').config();
+// require('dotenv').config();
 const LogoutButton = () => {
   const router = useRouter();
   const handleLogout = async () => {
@@ -9,7 +9,7 @@ const LogoutButton = () => {
       localStorage.getItem("access_token") ||
       sessionStorage.getItem("access_token");
 
-    const response = await fetch(process.env.SERVER_URL+"/auth/logout", {
+    const response = await fetch("http://localhost:4000/auth/logout", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

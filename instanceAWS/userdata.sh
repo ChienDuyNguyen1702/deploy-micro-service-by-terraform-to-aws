@@ -20,7 +20,6 @@ sudo apt install docker-ce -y
 
 # Clone reposiroty
 git clone https://ChienDuyNguyen1702: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@github.com/ChienDuyNguyen1702/deploy-micro-service-by-terraform-to-aws.git /home/ubuntu/deploy-micro-service-by-terraform-to-aws
-
 # Install nginx
 # apt install nginx -
 # systemctl enable nginx

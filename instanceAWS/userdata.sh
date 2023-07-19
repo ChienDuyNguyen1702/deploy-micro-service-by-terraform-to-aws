@@ -41,6 +41,6 @@ git clone https://ChienDuyNguyen1702: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@gi
 # npm install
 # npm start &
 
-cd /home/ubuntu/KTPM_BMD_VDH
+cd  /home/ubuntu/deploy-micro-service-by-terraform-to-aws
 docker compose build &
 docker compose up &

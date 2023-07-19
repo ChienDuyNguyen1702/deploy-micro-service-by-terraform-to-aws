@@ -14,7 +14,7 @@ variable "project_information" {
   default = {
     region = "ap-southeast-1"
     ami   = "ami-0df7a207adb9748c7" // ubuntu 22.04 lts
-    itype = "t2.micro"
+    itype = "t2.medium"
     publicip     = true
     keyname      = "chiennd"
     secgroupname = "launch-wizard-2"

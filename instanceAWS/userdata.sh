@@ -42,4 +42,4 @@ git clone https://ChienDuyNguyen1702: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@gi
 
 cd  /home/ubuntu/deploy-micro-service-by-terraform-to-aws
 docker compose build 
-docker compose up &
+docker compose up -d
